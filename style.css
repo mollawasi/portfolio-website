@@ -1,0 +1,83 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.text-color {
+    color: orange;
+}
+
+.top-section {
+    background-image: url("img/top-banner.png");
+
+    background-repeat: no-repeat;
+}
+
+section {
+    height: 500px;
+}
+.font-size{
+    font-size: 50px;
+}
+.h3-font-size{
+    font-weight: 900;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.hire-me{
+    text-decoration: none;
+   background-image: linear-gradient(45deg,lightsalmon, tomato);
+    padding: 5px 10px;
+    color: white;
+border-radius: 3px;
+font-weight: 900;
+
+
+
+}
+
+.half-width img {
+    width: 100%;
+}
+.middle-section{
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.h4-color{
+    color: orange;
+}
+.single{
+    box-shadow: 10px 10px 30px  gray;
+    border-radius: 5px;
+    height: 50%;
+    background-color: white;
+    
+    
+}
+.experience{
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#borderleft{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,lightsalmon, rgb(253, 68, 35));
+    border-image-slice: 1;
+}
+#border-left{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,rgb(35, 99, 238), rgb(130, 162, 233));
+    border-image-slice: 1;
+}
+footer  p{
+    text-align: center;
+    font-weight: 600;
+    
+}
